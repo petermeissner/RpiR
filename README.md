@@ -21,11 +21,20 @@ Once you have Wiring Pi and your hardware configured properly, you can move on t
 Since RpiR is not available on CRAN, you'll want to install from GitHub. The easiest way to do that is using the `devtools` package.
 
 ```r
-> install.packages("devtools")
-> library(devtools)
-> install_github("trestletech/RpiR")
-> library(RpiR)
+R> install.packages("devtools")
+R> library(devtools)
+R> install_github("trestletech/RpiR")
+R> library(RpiR)
 ```
+
+
+```bash
+bash> git clone https://github.com/trestletech/RpiR.git
+bash> R CMD build RpiR
+bash> R
+R> install.packages("RpiR_0.1.tar.gz")
+```
+
 
 Also, Wiring Pi requires sudo/root privileges for many operations. If you're not concerned with security, the easiest solution is just to run R with sudo privileges.
 
