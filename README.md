@@ -27,6 +27,7 @@ R> install_github("trestletech/RpiR")
 R> library(RpiR)
 ```
 
+... OR ...
 
 ```bash
 bash> git clone https://github.com/trestletech/RpiR.git
